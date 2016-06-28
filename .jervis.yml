@@ -1,0 +1,2 @@
+language: python
+before_install: python unit_tests/delete_test.py
