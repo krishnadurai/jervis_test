@@ -6,7 +6,7 @@ node {
     sh "rm pwd.current"
     
     stage 'checkout'  
-    git url: 'git@github.com:krishnadurai/jervis_test.git'
+    git url: 'git@github.com:krishnadurai/n-ary_builds_test.git'
     
     stage 'unit test'
     sh "nosetests"
